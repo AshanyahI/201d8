@@ -1,0 +1,56 @@
+Ashanyah Israel
+4/24/23
+
+
+How to Use System Restore on Windows 10 / 11,8,8.1
+https://www.lifewire.com/how-to-use-system-restore-in-windows-2626131#toc-how-to-use-system-restore-in-windows-11-10-8-or-81
+
+How to Use System Restore in Windows 11, 10, 8, or 8.1
+
+1.) Open Control Panel. (You won't see System and Security if your Control Panel view is set to either Large icons or Small icons. Instead, choose System and then skip to Step 4.
+In the System and Security window that's now open, select System.)
+
+2.) Choose System protection.
+
+From the System Properties window that appears, press System Restore. If you don't see it, make sure you're on the System Protection tab.
+
+3.) Select Next > from the System Restore window titled Restore system files and settings.
+
+If you've previously performed a System Restore, you may see both an Undo System Restore option and a Choose a different restore point option. If so, select Choose a different restore point, assuming you're not here to undo one.
+Select the restore point you want to use from those in the list.​ 
+
+If you'd like to see older restore points, check the Show more restore points checkbox.​ 
+All restore points that are still in Windows will be listed here, so long as that checkbox is checked. Unfortunately, there is no way to "restore" older restore points. The oldest restore point listed is the furthest back you can possibly restore Windows to.
+With your chosen restore point selected, use the Next > button to proceed.
+
+4.) Confirm the restore point you want to use on the Confirm your restore point window and then select Finish.​ 
+
+If you're curious as to what programs, drivers, and other parts of Windows 11/10/8/8.1 this System Restore will impact on your computer, select the Scan for affected programs link on this page prior to starting the System Restore. The report is informational only, but might be helpful in your troubleshooting if this System Restore doesn't fix whatever problem you're trying to solve.
+Choose Yes to the Once started, System Restore cannot be interrupted. Do you want to continue? question.​ 
+
+If you're running System Restore from Safe Mode, please know that the changes it makes to your computer will not be reversible. Don't let this scare you away—chances are, if you're doing a System Restore from here, it's because Windows isn't starting properly, leaving you with few other options. Still, it's something you should be aware of.​ 
+Your computer will restart as part of a System Restore, so be sure to close anything you might have running right now.
+System Restore will now begin reverting Windows to the state it was in at the date and time logged with the restore point that you chose in Step 7.
+
+You'll see a small System Restore window that says Preparing to restore your system..., after which Windows will almost completely shut down.
+
+Next, on an empty screen, you'll see a Please wait while your Windows files and settings are being restored message.
+
+You'll also see various messages appear underneath like System Restore is initializing..., System Restore is restoring the registry..., and System Restore is removing temporary files.... All in all, this will probably take around 15 minutes.​
+
+What you're sitting through here is the actual System Restore process. Do not turn off or restart your computer during this time!
+Wait while your computer restarts.
+
+Sign in to Windows as you normally do. If you don't use the Desktop and aren't switched there automatically, go there next.
+
+On the Desktop, you should see a small System Restore window that says "System Restore completed successfully. The system has been restored to [date time]. Your documents have not been affected."
+
+Select Close.
+
+5.) Now that the System Restore is complete, check to see that whatever issue you were trying to fix is actually corrected.
+
+If System Restore did not correct the problem, you can either 
+a) repeat the steps above, choosing an even older restore point, assuming one is available
+b) continue troubleshooting the problem.
+
+If this System Restore caused an additional problem, you can undo it, assuming it wasn't completed from Safe Mode (see the Important call-out in Step 10). To undo a System Restore in Windows, repeat steps 1 through 6 above and choose Undo System Restore.
